@@ -16,3 +16,10 @@ provider "aws" {
 resource "aws_vpc" "main_tf_cloud" {
   cidr_block = "10.0.0.0/16"
 }
+
+variable "AWS_KEY" {
+
+}
+variable "AWS_SECRET" {
+
+}
